@@ -107,3 +107,24 @@ git push origin master o la rama o commit
 git push origin v0.8
 
 git push origin --tags
+
+------------------------------------------------------------------GIT AND GITHUB EN EQUIPO------------------------------------------------------------------------------
+//Trae los archivos del repositorio remoto a la rama origin local
+
+git fetch origin
+
+//Fuciona la rama origin con la rama que queremos
+
+git merge origin/master
+
+//Me muestra todas las ramas ocultas
+
+git branch -a
+
+//Creamos un nuevo branch localmente, basados en el branch remoto.
+
+git checkout -b nombre_del_branch origin/nombre_del_branch
+
+//Hacemos un pull, para asegurarnos que nuestro nuevo branch, esté actualizado.
+
+git pull origin nombre_del_branch
