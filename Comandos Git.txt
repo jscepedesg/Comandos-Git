@@ -128,3 +128,7 @@ git checkout -b nombre_del_branch origin/nombre_del_branch
 //Hacemos un pull, para asegurarnos que nuestro nuevo branch, esté actualizado.
 
 git pull origin nombre_del_branch
+
+//Eliminar ramas en repositorio local
+
+git push origin :nombre-rama 
